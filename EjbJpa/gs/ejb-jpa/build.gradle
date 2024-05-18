@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'javax.ejb', name: 'javax.ejb-api', version: '3.2.2'
+    implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    implementation group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+    implementation group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.10.Final'
+}
+
+// Pentru a genera un fișier WAR dacă desfășurați într-un server de aplicații
+war {
+    enabled = true
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'ejb-jpa-jndi'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.glassfish.main.appclient', name: 'gf-client', version: '5.1.0'
+}
