@@ -1,0 +1,6 @@
+com\example\servletswar2\HelloServlet.class
+com\example\servletswar2\HomePageServlet.class
+com\example\servletswar2\AnimalManagementServlet.class
+com\example\servletswar2\ShelterServlet.class
+com\example\servletswar2\AppContextListener.class
+com\example\servletswar2\Animal.class

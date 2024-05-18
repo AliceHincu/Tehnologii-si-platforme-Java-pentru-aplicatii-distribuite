@@ -1,0 +1,6 @@
+org\example\servlets\HomePageServlet.class
+org\example\servlets\ShelterServlet.class
+org\example\servlets\Animal.class
+org\example\Main.class
+org\example\servlets\AppContextListener.class
+org\example\servlets\AnimalManagementServlet.class

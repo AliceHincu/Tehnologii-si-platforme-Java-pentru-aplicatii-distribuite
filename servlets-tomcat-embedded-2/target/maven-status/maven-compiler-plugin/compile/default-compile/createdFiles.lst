@@ -1,0 +1,7 @@
+org\example\Main.class
+org\example\controller\AppContextListener.class
+org\example\controller\ShelterServlet.class
+org\example\controller\AnimalManagementServlet.class
+org\example\controller\Animal.class
+org\example\controller\SimpleServlet.class
+org\example\controller\HomePageServlet.class
